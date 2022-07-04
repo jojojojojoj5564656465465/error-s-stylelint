@@ -1,0 +1,29 @@
+{
+  "name": "@example/portfolio",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "devDependencies": {
+    "@astrojs/preact": "^0.3.1",
+    "astro": "^1.0.0-beta.63",
+    "sass": "^1.53.0",
+    "stylelint-config-astro": "^1.0.3",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-recess-order": "^3.0.0",
+    "stylelint-config-standard": "^26.0.0",
+    "stylelint-config-standard-scss": "^4.0.0"
+  },
+  "dependencies": {
+    "postcss": "^8.4.14",
+    "preact": "^10.8.2"
+  },
+  "peerdependencies": {
+    "postcss-html": "^1.4.1",
+    "stylelint": "^14.9.1"
+  }
+}
